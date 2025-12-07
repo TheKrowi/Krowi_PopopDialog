@@ -1,16 +1,15 @@
-## Support me
-<a href="https://www.paypal.com/donate/?hosted_button_id=NYWTBA4XM6ZS6" alt="Paypal">
-  <img src="https://www.paypalobjects.com/en_US/BE/i/btn/btn_donateCC_LG.gif" />
-</a>
-<a href="https://www.patreon.com/Krowi" alt="Patreon">
-  <img src="https://raw.githubusercontent.com/codebard/patron-button-and-widgets-by-codebard/master/images/become_a_patron_button.png" />
-</a>
-<a href='https://ko-fi.com/E1E6G64LS' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+![Retail](https://img.shields.io/badge/Retail-11.2.7-008833?style=for-the-badge) ![Mists](https://img.shields.io/badge/Mists-5.5.2-28ae7e?style=for-the-badge) ![Classic](https://img.shields.io/badge/Classic-1.15.8-c39361?style=for-the-badge)<br>
+[![CurseForge](https://img.shields.io/badge/curseforge-download-F16436?style=for-the-badge&logo=curseforge&logoColor=white)](https://www.curseforge.com/wow/addons/krowi-popupdialog) [![Wago](https://img.shields.io/badge/Wago-Download-c1272d?style=for-the-badge)](https://addons.wago.io/addons/b6XV7xGp)<br>
+[![Discord](https://img.shields.io/badge/discord-join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/mdBFQJYeQZ) [![PayPal](https://img.shields.io/badge/paypal-donate-002991.svg?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=9QEDV37APQ6YJ)
 
-## Purpose
-This library was created to make a popup dialog with a copyable external link in reusable. This library was initially created for personal use so documentation is lacking.
+A library providing a reusable popup dialog for displaying copyable external links in World of Warcraft addons.
 
-## Example
+## Features
+- Simple popup dialog with copyable text field
+- Easy integration with a single function call
+- Lightweight and focused functionality
+
+## Usage
 ```lua
-LibStub("Krowi_PopopDialog-1.0").ShowExternalLink(--[[ Your external link here ]]);
+LibStub("Krowi_PopupDialog-1.0").ShowExternalLink("https://example.com");
 ```
